@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Covid</title>
+  </head>
+  <body>
+    <h1 style="text-align: left;"><img src="logo.jpg" alt="Message d’erreur" style="width: 131px; height: 131px;">Diagnostic
+      Covid-19</h1>
+    <p style="text-align: center;">Formulaire d’autoévaluation des symptômes de
+      la COVID-19. Le présent formulaire ne remplace pas une consultation
+      médicale. Respectez toujours les consignes que vous donne un professionnel
+      de la santé.</p>
+    <p style="text-align: center;"><br>
+    </p>
+    <p style="text-align: left;"><b>Informations Personnelles <br>
+      </b></p>
+    <p style="text-align: left;">Nom : <input name="Nom" required="required" type="text"></p>
+    <p style="text-align: left;">Prénom : <input name="Prénom" required="required"
+        type="text"></p>
+    <p style="text-align: left;">Date de naissance : <input name="Date de naissance"
+        required="required" type="date"></p>
+    <p style="text-align: left;">Adressse : <input name="Adresse" type="text"></p>
+    <p style="text-align: left;">Pays :
+      <select name="Pays" required="required">
+        <option value="" disabled="disabled">Votre Pays</option>
+        <optgroup value="Europe">
+          <option value="Europe">Allemagne</option>
+          <option value="Europe">France</option>
+          <option value="Europe">Espagne</option>
+          <option value="Europe">Italie</option>
+        </optgroup> <optgroup value="Asie">
+          <option value="Asie">Japan</option>
+          <option value="Asie">Chine</option>
+          <option value="Asie">Inde</option>
+          <option value="Asie">Quatar</option>
+          <option value="Asie">Dubai</option>
+          <option value="Asie">Bahrain</option>
+          <option value="Asie">arabe de saoudite</option>
+        </optgroup> <optgroup value="Afrique">
+          <option value="Afrique">Tunisie</option>
+          <option value="Afrique">Algèrie</option>
+          <option value="Afrique">Maroc</option>
+          <option value="Afrique">Egypte</option>
+          <option value="Afrique">Afrique du sud</option>
+          <option value="Afrique">Zambia</option>
+          <option value="Afrique">Lybie</option>
+        </optgroup> <optgroup value="Amerique">
+          <option value="Amerique">Amerique</option>
+          <option value="Amerique">Canada</option>
+          <option value="Amerique">Brazil</option>
+          <option value="Amerique">Mexique</option>
+          <option value="Amerique">Amerique</option>
+        </optgroup>
+      </select>
+    </p>
+    <p style="text-align: left;">Numéro de téléphone :&nbsp;<input name="Numéro de Telephone"
+        required="required" type="number"> </p>
+    <div style="text-align: left;"> </div>
+  </body>
+</html>
